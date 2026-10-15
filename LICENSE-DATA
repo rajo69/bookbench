@@ -1,0 +1,36 @@
+bookbench data licence
+
+Copyright (c) 2026 Rajarshi Nandi
+
+The dataset files in this repository are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0):
+
+    https://creativecommons.org/licenses/by/4.0/
+    Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Scope. This licence covers the data files: everything under
+evals/datasets/ (generated items and history, manifests, statistics, charts of
+accounts, catalogues, firm specifications and the categorisation guides) and
+the generated word list evals/generator/data/pseudo_surnames.json. Source code
+(including evals/datasets/bookbench/draft/sources/build_brands.py and
+everything under evals/generator/*.py and tests/) is licensed under the MIT
+License in LICENSE.
+
+Third-party material. The brand lists in
+evals/datasets/bookbench/draft/sources/ are derived from third-party sources
+that keep their own licences and notices (Name Suggestion Index, BSD 3-Clause;
+Wikidata, CC0; MoneyVis bank transactions dataset, CC BY 4.0). The rule
+sources and guides quote public sector information licensed under the Open
+Government Licence v3.0. Those terms, notices and selection rules are recorded in
+evals/datasets/bookbench/draft/sources/ATTRIBUTION.md and apply to that
+material in addition to, and where they conflict instead of, this licence.
+
+Attribution. When you share or adapt the data, credit "bookbench (Rajarshi
+Nandi, 2026)", link to https://github.com/rajo69/bookbench, link to the
+CC BY 4.0 licence, and indicate if changes were made.
+
+All transactions, businesses, people and amounts in the generated data are
+synthetic. Brand names appear only as facts in synthetic bank descriptors; no
+endorsement by any brand owner is implied.
+
+No warranties are given. The data is not tax, accounting or legal advice.

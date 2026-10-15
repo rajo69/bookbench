@@ -1,0 +1,3 @@
+# Store and check out every text file with LF endings, so the sha256 values in the manifests verify on any OS.
+* text=auto eol=lf
+*.parquet binary
