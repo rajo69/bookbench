@@ -104,5 +104,5 @@ LIMITS = {
 }
 
 BACKEND_DIR = Path(__file__).resolve().parents[2]
-DRAFT_DIR = BACKEND_DIR / "evals" / "datasets" / "bookbench" / "draft"
+DRAFT_DIR = BACKEND_DIR / "evals" / "datasets" / "bookbench" / "data"
 SOURCES_DIR = DRAFT_DIR / "sources"

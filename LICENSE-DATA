@@ -12,17 +12,17 @@ Scope. This licence covers the data files: everything under
 evals/datasets/ (generated items and history, manifests, statistics, charts of
 accounts, catalogues, firm specifications and the categorisation guides) and
 the generated word list evals/generator/data/pseudo_surnames.json. Source code
-(including evals/datasets/bookbench/draft/sources/build_brands.py and
+(including evals/datasets/bookbench/data/sources/build_brands.py and
 everything under evals/generator/*.py and tests/) is licensed under the MIT
 License in LICENSE.
 
 Third-party material. The brand lists in
-evals/datasets/bookbench/draft/sources/ are derived from third-party sources
+evals/datasets/bookbench/data/sources/ are derived from third-party sources
 that keep their own licences and notices (Name Suggestion Index, BSD 3-Clause;
 Wikidata, CC0; MoneyVis bank transactions dataset, CC BY 4.0). The rule
 sources and guides quote public sector information licensed under the Open
 Government Licence v3.0. Those terms, notices and selection rules are recorded in
-evals/datasets/bookbench/draft/sources/ATTRIBUTION.md and apply to that
+evals/datasets/bookbench/data/sources/ATTRIBUTION.md and apply to that
 material in addition to, and where they conflict instead of, this licence.
 
 Attribution. When you share or adapt the data, credit "bookbench (Rajarshi

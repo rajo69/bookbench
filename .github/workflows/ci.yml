@@ -43,7 +43,7 @@ jobs:
         run: |
           python - <<'EOF'
           import hashlib, json, pathlib, sys
-          draft = pathlib.Path("evals/datasets/bookbench/draft")
+          draft = pathlib.Path("evals/datasets/bookbench/data")
           bad = 0
           for mode in ("pilot", "full_dryrun"):
               files = json.loads((draft / mode / "manifest.json").read_text(encoding="utf-8"))["files"]
